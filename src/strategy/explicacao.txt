@@ -1,0 +1,3 @@
+Neste exemplo, a classe GerenciadorContatos recebe uma instância da estratégia de busca no 
+construtor. Isso permite que você altere a estratégia de busca sem modificar o código da classe 
+GerenciadorContatos, seguindo o princípio do padrão Strategy.

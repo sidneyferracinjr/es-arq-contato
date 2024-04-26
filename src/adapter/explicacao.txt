@@ -1,0 +1,5 @@
+Neste exemplo, a classe GerenciadorContatosAdapter atua como um adaptador entre a 
+interface IContatoService e o GerenciadorContatos, permitindo que a adição e remoção 
+de contatos sejam feitas através de uma interface comum. Dessa forma, se no futuro 
+houver necessidade de modificar a forma como os contatos são adicionados ou removidos, 
+basta modificar o adapter sem afetar o restante do código.

@@ -1,0 +1,19 @@
+{
+  "name": "es-arq-contato",
+  "version": "1.0.0",
+  "description": "Exercício prático de Arquitetura de Software - Padrões de Projeto e SOLID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidneyferracinjr/es-arq-contato.git"
+  },
+  "author": "Sidney Ferracin Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidneyferracinjr/es-arq-contato/issues"
+  },
+  "homepage": "https://github.com/sidneyferracinjr/es-arq-contato#readme"
+}
