@@ -1,6 +1,10 @@
-class BuscaPorEmailStrategy extends IEstrategiaBusca {
-    buscarContato(contatos, email) {
-        return contatos.find(contato => contato.getEmail() === email);
+class BuscaPorEmailStrategy {
+    constructor(buscaService) {
+      this.buscaService = buscaService;
+    }
+  
+    buscarContato(contatos, termo) {
+      return this.buscaService.buscarContatoPorEmail(termo);
     }
 }
 

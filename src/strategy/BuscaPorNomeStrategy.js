@@ -1,6 +1,10 @@
-class BuscaPorNomeStrategy extends IEstrategiaBusca {
-    buscarContato(contatos, nome) {
-        return contatos.find(contato => contato.getNome() === nome);
+class BuscaPorNomeStrategy {
+    constructor(buscaService) {
+      this.buscaService = buscaService;
+    }
+  
+    buscarContato(contatos, termo) {
+      return this.buscaService.buscarContatoPorNome(termo);
     }
 }
 
